@@ -1,27 +1,75 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.5"
+  "_args": [
+    [
+      "camelcase@3.0.0",
+      "E:\\cloudstorage-master\\frontend"
+    ]
+  ],
+  "_development": true,
+  "_from": "camelcase@3.0.0",
+  "_id": "camelcase@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-MvxLn82vhF/N9+c7uXysImHwqwo=",
+  "_location": "/yargs-parser/camelcase",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "camelcase@3.0.0",
+    "name": "camelcase",
+    "escapedName": "camelcase",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
   },
-  "dependencies": {
-    "@material-ui/core": "^4.0.0",
-    "@material-ui/styles": "^4.0.0",
-    "axios": "^0.15.3",
-    "material-ui": "^0.20.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-dropzone": "^3.10.0",
-    "react-file-tree": "0.0.8",
-    "react-images-upload": "^1.2.8",
-    "react-router-dom": "^4.0.0",
-    "superagent": "^3.4.4"
+  "_requiredBy": [
+    "/yargs-parser"
+  ],
+  "_resolved": "https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz",
+  "_spec": "3.0.0",
+  "_where": "E:\\cloudstorage-master\\frontend",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/camelcase/issues"
+  },
+  "description": "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar",
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/sindresorhus/camelcase#readme",
+  "keywords": [
+    "camelcase",
+    "camel-case",
+    "camel",
+    "case",
+    "dash",
+    "hyphen",
+    "dot",
+    "underscore",
+    "separator",
+    "string",
+    "text",
+    "convert"
+  ],
+  "license": "MIT",
+  "name": "camelcase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/camelcase.git"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "xo && ava"
+  },
+  "version": "3.0.0"
 }
